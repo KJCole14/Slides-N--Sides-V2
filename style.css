@@ -1,4 +1,4 @@
-* {
+  * {
     margin: 0px;
     padding: 0px;
   }
@@ -11,7 +11,7 @@
   }
 
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/HeroImage.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/HeroImage.jpg");
     height: 50%;
   
     background-position: center;
@@ -19,6 +19,7 @@
     background-size: cover;
     position: relative;
   }
+
   
   .hero-text {
     text-align: center;
@@ -43,7 +44,7 @@
   
   nav {
     width: 100%;
-    background-color: black;
+    background-color: white;
     
   }
   
@@ -60,13 +61,13 @@
   nav li {
     display: inline;
    margin-left: 30px;
-    color: lightblue;
+   color: black;
     padding-bottom: 10px;
     font-size: 20px;
   }
   
   nav a:hover {
-    color: yellow;
+    color: darkgoldenrod;
   }
   
   nav img {
@@ -75,7 +76,7 @@
   }
   
   a:visited {
-    color: lightblue;
+    color: black;
   }
   
   .card img {
