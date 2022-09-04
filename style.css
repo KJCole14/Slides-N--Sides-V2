@@ -10,9 +10,9 @@
     font-family: sans-serif;
   }
 
-  .hero-image {
+  .Hero-Image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/HeroImage.jpg");
-    height: 50%;
+    height: 80%;
   
     background-position: center;
     background-repeat: no-repeat;
@@ -83,30 +83,36 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+    border-radius: 20px;
   }
   
   .box {
-    display: flex;
+    display: inline-block;
     justify-content: center;
   }
   
   .card {
     margin-left: 5%;
     margin-top: 1%;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     background-color: tan;
+    border-radius: 20px;
   }
   
   .card h2 {
     margin-left: 10%;
   }
+
   
-  button {
-    float: right;
-    
+  form,button {
+    text-align: center;
+    border-radius: 20px;
   }
   
+  input {
+    border-radius: 20px;
+  }
   
   footer {
     display: flex;
